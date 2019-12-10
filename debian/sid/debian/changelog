@@ -1,3 +1,9 @@
+ignition-transport8 (8.0.0-1~sid) sid; urgency=medium
+
+  * ignition-transport8 8.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 10 Dec 2019 12:16:37 +0100
+
 ignition-transport8 (8.0.0~pre3-1~sid) sid; urgency=medium
 
   * ignition-transport8 8.0.0~pre3-1 release
