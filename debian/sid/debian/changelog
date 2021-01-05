@@ -1,3 +1,9 @@
+ignition-transport8 (8.2.0-1~sid) sid; urgency=medium
+
+  * ignition-transport8 8.2.0-1 release
+
+ -- Nate Koenig <nate@osrfoundation.org>  Tue, 05 Jan 2021 12:18:29 -0700
+
 ignition-transport8 (8.1.0-1~sid) sid; urgency=medium
 
   * ignition-transport8 8.1.0-1 release
