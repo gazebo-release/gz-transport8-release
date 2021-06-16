@@ -1,3 +1,9 @@
+ignition-transport8 (8.2.0-2~focal) focal; urgency=medium
+
+  * ignition-transport8 8.2.0-2 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Wed, 16 Jun 2021 09:44:24 -0700
+
 ignition-transport8 (8.2.0-1~focal) focal; urgency=medium
 
   * ignition-transport8 8.2.0-1 release

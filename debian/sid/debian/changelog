@@ -1,3 +1,9 @@
+ignition-transport8 (8.2.0-2~sid) sid; urgency=medium
+
+  * ignition-transport8 8.2.0-2 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Wed, 16 Jun 2021 09:44:25 -0700
+
 ignition-transport8 (8.2.0-1~sid) sid; urgency=medium
 
   * ignition-transport8 8.2.0-1 release
