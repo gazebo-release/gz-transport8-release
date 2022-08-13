@@ -20,7 +20,7 @@ Build-Depends: cmake,
                libsqlite3-dev
 Vcs-Browser: https://github.org/ignition-relase/ign-transport8-release
 Vcs-Hg: https://github.org/ignition-relase/ign-transport8-release
-Homepage: https://bitbucket.org/ignitionrobotics/ign-transport
+Homepage: https://github.com/gazebosim/gz-transport
 
 Package: libignition-transport8-core-dev
 Architecture: any
@@ -33,7 +33,7 @@ Depends: libignition-transport8 (= ${binary:Version}),
          libignition-tools-dev,
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics transport Library - Core Dev files
+Description: Gazebo transport Library - Core Dev files
 
 Package: libignition-transport8
 Architecture: any
@@ -41,7 +41,7 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics Transport Library - Shared library
+Description: Gazebo Transport Library - Shared library
 
 Package: libignition-transport8-log-dev
 Architecture: any
@@ -52,7 +52,7 @@ Depends: libsqlite3-dev,
          libignition-transport8-log (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics transport Library - Core Dev
+Description: Gazebo transport Library - Core Dev
 
 Package: libignition-transport8-log
 Architecture: any
@@ -60,7 +60,7 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics Transport Library - Log Shared library
+Description: Gazebo Transport Library - Log Shared library
 
 Package: libignition-transport8-dev
 Architecture: any
@@ -69,7 +69,7 @@ Depends: libignition-transport8-core-dev (= ${binary:Version}),
          libignition-transport8-log-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics transport Library - Metapackage
+Description: Gazebo transport Library - Metapackage
 
 Package: libignition-transport8-dbg
 Architecture: any
@@ -79,4 +79,4 @@ Depends:
      libignition-transport8 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
-Description: Ignition Robotics transport Library - Debugging symbols
+Description: Gazebo transport Library - Debugging symbols
