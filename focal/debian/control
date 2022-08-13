@@ -18,8 +18,8 @@ Build-Depends: cmake,
                uuid-dev,
                libzmq3-dev (>= 3.0.0),
                libsqlite3-dev
-Vcs-Browser: https://github.org/ignition-relase/ign-transport8-release
-Vcs-Hg: https://github.org/ignition-relase/ign-transport8-release
+Vcs-Browser: https://github.org/gazebo-release/gz-transport8-release
+Vcs-Git: https://github.org/gazebo-release/gz-transport8-release
 Homepage: https://github.com/gazebosim/gz-transport
 
 Package: libignition-transport8-core-dev
