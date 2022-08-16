@@ -18,8 +18,8 @@ Build-Depends: cmake,
                uuid-dev,
                libzmq3-dev (>= 3.0.0),
                libsqlite3-dev
-Vcs-Browser: https://github.org/gazebo-release/gz-transport8-release
-Vcs-Git: https://github.org/gazebo-release/gz-transport8-release
+Vcs-Browser: https://github.org/gazebosim/gz-transport
+Vcs-Git: https://github.org/gazebosim/gz-transport
 Homepage: https://github.com/gazebosim/gz-transport
 
 Package: libignition-transport8-core-dev
@@ -80,3 +80,51 @@ Depends:
      ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo transport Library - Debugging symbols
+
+Package: libgz-transport8-core-dev
+Depends: libignition-transport8-core-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-transport8
+Depends: libignition-transport8, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-transport8-log-dev
+Depends: libignition-transport8-log-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-transport8-log
+Depends: libignition-transport8-log, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-transport8-dev
+Depends: libignition-transport8-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-transport8-dbg
+Depends: libignition-transport8-dbg, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
