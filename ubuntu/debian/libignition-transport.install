@@ -1,4 +1,4 @@
-usr/lib/*/libignition-transport[0-99].so.*
-usr/lib/ruby/ignition/cmdtransport[0-99].rb
-usr/share/ignition/transport[0-99].yaml
+usr/lib/*/lib*-transport[0-99].so.*
+usr/lib/ruby/*/cmdtransport[0-99].rb
+usr/share/*/transport[0-99].yaml
 usr/share/gz/*
